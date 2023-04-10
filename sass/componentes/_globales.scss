@@ -40,7 +40,6 @@ $color-claro: #FFF;
 	line-height: calc(calculateRem($size) * 1.5);
 }
 
-
 // Funciones
 @function get-opacity($color, $amount) {
   @return rgba($color, $amount);
